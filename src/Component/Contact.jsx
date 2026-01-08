@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react'
 
  function Contact() {
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">

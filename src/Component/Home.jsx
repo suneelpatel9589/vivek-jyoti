@@ -2,7 +2,7 @@ import { Calendar } from 'lucide-react';
 function Home(){
     return(
         <>
-    <div className="relative h-screen flex items-center bg-gradient-to-b from-orange-400 to-red-600 justify-center overflow-hidden pt-20">
+    <div className="relative h-screen flex items-center bg-linear-to-l from-orange-400 to-red-600 justify-center overflow-hidden pt-20">
       <div className="absolute inset-0 z-0">
         {/* <img src="diwali1.jpg" alt=""  className=''/> */}
         <div className="absolute inset-0 "></div>

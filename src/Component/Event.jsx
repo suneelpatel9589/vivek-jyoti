@@ -33,7 +33,7 @@ import { Calendar, Clock, MapPin, Music, Sparkles, Utensils } from 'lucide-react
   ];
 
   return (
-    <section className="py-20 px-4 ">
+    <section className="py-20 px-4 bg-linear-to-r from-orange-200 to-red-300 ">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">

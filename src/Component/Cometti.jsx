@@ -101,7 +101,7 @@ function Cometti() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-orange-50 to-red-50">
+    <section className="py-20 px-4  bg-red-100">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">
@@ -132,12 +132,12 @@ function Cometti() {
           ))}
         </div>
         
-        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 text-center">
-          <h3 className="text-3xl mb-4 text-orange-900">स्वयंसेवक बनें</h3>
-          <p className="text-xl text-gray-600 mb-6">
+        <div className="mt-16 bg-orange-600 rounded-2xl shadow-lg p-8 text-center">
+          <h3 className="text-3xl mb-4 text-white">स्वयंसेवक बनें</h3>
+          <p className="text-xl text-white mb-6">
             इस पावन उत्सव में अपना योगदान दें और समिति का हिस्सा बनें
           </p>
-          <p className="text-lg text-gray-500">
+          <p className="text-lg text-white">
             Become a Volunteer and be part of this sacred celebration
           </p>
         </div>

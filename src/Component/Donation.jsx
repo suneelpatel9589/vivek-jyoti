@@ -8,7 +8,7 @@ import { useState } from 'react';
   const predefinedAmounts = [501, 1001, 2001, 5001, 11001];
 
   return (
-    <section className="py-20 px-4 bg-pink-50 ">
+    <section className="py-20 px-4 bg-linear-to-l from-pink-300 to-red-200 ">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">

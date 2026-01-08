@@ -1,5 +1,6 @@
 import { Video, Play } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function VideoGallery() {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -52,7 +53,7 @@ function VideoGallery() {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 px-4 bg-gray-100">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">
@@ -127,8 +128,8 @@ function VideoGallery() {
             href="#" 
             className="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-4 rounded-full text-xl hover:from-orange-700 hover:to-red-700 transition-all shadow-lg"
           >
-            <Video className="w-6 h-6" />
-            YouTube पर और देखें
+            {/* <Video className="w-6 h-6" /> */}
+            <Link to="https://www.youtube.com/">YouTube पर और देखें</Link>
           </a>
         </div>
       </div>

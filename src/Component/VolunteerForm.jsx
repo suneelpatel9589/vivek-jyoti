@@ -107,7 +107,7 @@ import { volunteersStorage } from '../utils/storage';
   }
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 px-4 bg-slate-100">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <div className="flex justify-center mb-4">
@@ -120,7 +120,7 @@ import { volunteersStorage } from '../utils/storage';
           </p>
         </div>
         
-        <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl p-8 md:p-12">
+        <div className="bg-red-200 rounded-2xl shadow-xl p-8 md:p-12">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>

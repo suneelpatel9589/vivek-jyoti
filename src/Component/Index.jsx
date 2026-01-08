@@ -6,7 +6,7 @@ import VideoGallery from "./VideoGallery";
 import Donation from "./Donation";
 import Cometti from "./Cometti";
 import Contact from "./Contact";
-// import Footer from "./Footer";
+import VolunteerForm from "./VolunteerForm";
 
 function Index() {
   return (
@@ -40,11 +40,15 @@ function Index() {
         <Cometti />
       </section>
 
+      <section id="volunteer" className="scroll-mt-24">
+        <VolunteerForm />
+      </section>
+
       <section id="contact" className="scroll-mt-24">
         <Contact />
       </section>
 
-      {/* <Footer /> */}
+      
     </>
   );
 }
