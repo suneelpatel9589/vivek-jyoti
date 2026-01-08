@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, User, LogOut } from "lucide-react";
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import LoginModal from "./LoginModal";
 
 
@@ -12,7 +12,7 @@ function Navbar({ user, onLogin, onLogout }) {
   const navigate = useNavigate();
 
   const menuItems = [
-    { label: "होम", path: "/home" },
+    { label: "होम", path: "/" },
     { label: "हमारे बारे में", path: "/about" },
     { label: "कार्यक्रम", path: "/events" },
     { label: "गैलरी", path: "/gallery" },
@@ -80,7 +80,7 @@ function Navbar({ user, onLogin, onLogout }) {
 
                       <button
                         onClick={() => {
-                          navigate("/dashboard");
+                          navigate("/userdashboard");
                           setShowUserMenu(false);
                         }}
                         className="w-full text-left px-4 py-2 hover:bg-orange-50"
@@ -93,7 +93,8 @@ function Navbar({ user, onLogin, onLogout }) {
                         className="w-full text-left px-4 py-2 hover:bg-orange-50 flex gap-2"
                       >
                         <LogOut className="w-4 h-4" />
-                        Logout
+                        
+                        <Link to="/">Logout</Link>
                       </button>
                     </div>
                   )}
@@ -144,7 +145,7 @@ function Navbar({ user, onLogin, onLogout }) {
                   className="w-full mt-4 bg-red-600 text-white py-2 rounded-lg flex justify-center gap-2"
                 >
                   <LogOut />
-                  Logout
+                  <Link to="/">Logout</Link>
                 </button>
               ) : (
                 <button
